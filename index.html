@@ -1,0 +1,128 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>HearMe App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $('document').ready(function(){
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $('.hma-logo').hide();
+        $('.btn-group').removeClass('btn-group-justified');
+      }
+    });
+  </script>
+  <style>
+    .hma-logo {
+      position: relative;
+      float: right;
+      margin-top: -17vh;
+      height: 30vh;
+    }
+    .hma-color {
+      /*background-color: #4CA194;*/
+    }
+    .footer {
+      background-color: #4CA194;
+    }
+    .footer > div > img {
+      height: 30px;
+      margin: 10px 30px 10px 0;
+    }
+    .footer > div > .hma-right {
+      float: right;
+    }
+    .footer > div > .hma-left {
+      float: left;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>HearMe App</h1>
+    <!--<img class="hma-logo" src="logo.png">-->
+    <p>Aplicación Web para aprender Inglés.</p>
+    <p><a class="btn btn-primary btn-lg hma-color" href="HearMeApp" role="button">Jugar Online</a></p>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">Barbara Echard</div>
+        <div class="panel-body">
+          <ul>
+            <li>Profesora Encargada</li>
+            <li> <span class="glyphicon glyphicon-phone"></span> +569 7525 4715</li>
+            <li> <span class="glyphicon glyphicon-envelope"></span> barbara.echard@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">Marisol Besa</div>
+        <div class="panel-body">
+          <ul>
+            <li>Colaboradora iUDD</li>
+            <li> <span class="glyphicon glyphicon-phone"></span> +569 9235 2473</li>
+            <li> <span class="glyphicon glyphicon-envelope"></span> mbesa@udd.cl</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">Andrés Robert</div>
+        <div class="panel-body">
+          <ul>
+            <li>IT Encargado</li>
+            <li> <span class="glyphicon glyphicon-phone"></span> +569 5209 4004</li>
+            <li> <span class="glyphicon glyphicon-envelope"></span> andresrobert@icloud.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">Material Oficial</div>
+    <div class="panel-body">
+      <div class="btn-group btn-group-justified">
+        <a href="HearMeApp.pdf" class="btn btn-success hma-color">Presentación</a>
+        <a href="ReporteDiario.docx" class="btn btn-success hma-color">Reporte Diario</a>
+        <a href="EncuestaytestHearMeApp-2.docx" class="btn btn-success hma-color">Encuesta y Test</a>
+        <a href="HearMeApp.zip" class="btn btn-success hma-color">APP Descargable</a>
+      </div>
+    </div>
+    <div class="panel-heading">Aplicaciones</div>
+    <div class="panel-body">
+      <div class="btn-group btn-group-justified">
+        <a href="https://www.mozilla.org/es-ES/firefox/new/" class="btn btn-info hma-color">Firefox</a>
+        <a href="http://www.fromtexttospeech.com/" class="btn btn-info hma-color">Texto en Audio</a>
+        <a href="http://resizeimage.net/" class="btn btn-info hma-color">Cambiar Tamaño Imagen</a>
+        <a href="https://fonts.google.com/" class="btn btn-info hma-color">Fuentes de Texto</a>
+        <a href="https://pixabay.com/es/" class="btn btn-info hma-color">Galería de imágenes</a>
+      </div>
+    </div>
+    <div class="panel-heading">Convertidores de Audio</div>
+    <div class="panel-body">
+      <div class="btn-group btn-group-justified">
+        <a href="http://audio.online-convert.com/es/convertir-a-ogg" class="btn btn-primary hma-color">Convertidor a OGG</a>
+        <a href="http://audio.online-convert.com/es/convertir-a-m4a" class="btn btn-primary hma-color">Convertidor a M4A</a>
+      </div>
+    </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <img class="hma-right" src="acode_logo.png">
+    <img class="hma-left" src="udd_logo.png">
+  </div>
+</footer>
+</body>
+</html> 
